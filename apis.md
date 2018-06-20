@@ -4,16 +4,16 @@ description: This is a repository of state APIs, self-contained as a Github repo
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/state.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-20"
 url: http://state.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
 tags: State
 include:
+- name: Mailjet
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/mailjet/apis.yaml
 - name: OpenCorporates
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/opencorporates/apis.yaml
-- name: AWS Code Pipeline
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/aws-code-pipeline/apis.yaml
 - name: AWS Step Functions
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/aws-step-functions/apis.yaml
 - name: AWS CloudWatch
@@ -22,20 +22,32 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/aws-ec2-container-service/apis.yaml
 - name: AWS EC2 Systems Manager
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/aws-ec2-systems-manager/apis.yaml
+- name: AWS Code Pipeline
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/aws-code-pipeline/apis.yaml
 - name: Google App Engine
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/google-app-engine/apis.yaml
-- name: Google Play
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/google-play/apis.yaml
 - name: GitHub
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/github/apis.yaml
+- name: Lykke
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/lykke/apis.yaml
+- name: Google Play
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/google-play/apis.yaml
 - name: Stride
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/stride/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/xignite/apis.yaml
 - name: Healthcare.gov
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcaregov/apis.yaml
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/apis.yaml
+- name: Healthcare.gov
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/apis.yaml
 - name: IBM Watson
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/apis.yaml
+- name: Paylocity
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/paylocity/apis.yaml
+- name: Reverb
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/reverb/apis.yaml
+- name: Xero
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/xero/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

@@ -1,28 +1,22 @@
 ---
 name: OpenCorporates
 x-slug: opencorporates
-description: OpenCorporates is a website which shares data on corporate entities as
-  open data under the share-alike attribution Open Database License. It was created
-  by Chris Taggart and Rob McKinnon, under the auspices of their company, Chrinon
-  Ltd, and launched on 20 December 2010. It has the aims of creating a URL with such
-  data for every corporate entity in the world, importing government data relating
-  to companies and matching it to specific companies. The site also shows groups of
-  companies which are legally part of the same conglomerate. Basic company information
-  is available as open data in XML or JSON format.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
+description: Free and Open Company Data on 135 million companies and corporations
+  in over 125 jurisdictions, including US, UK, Switzerland, Panama...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "53526"
 tags: State
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
 apis:
 - name: OpenCorporates Placeholders  ID Statements
   x-api-slug: opencorporates
   description: nThis returns the statements associated with a given placeholder
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4///placeholders/:id/statements
   tags: Businesses,Placeholders,Statements
   properties:
@@ -36,8 +30,8 @@ apis:
     allows developers to access and integrate the data and functionality of OpenCorporates
     with other applications. Some example API methods include searching and retrieving
     information on corporation by type, jurisdiction, and company ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OpenCorporates.jpg
-  humanURL: https://opencorporates.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
+  humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4/
   tags: State
   properties:
@@ -50,6 +44,8 @@ x-common:
   url: http://blog.opencorporates.com/
 - type: x-blog-rss
   url: http://blog.opencorporates.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/opencorporates
 - type: x-developer
   url: http://api.opencorporates.com/
 - type: x-github
@@ -62,6 +58,8 @@ x-common:
   url: https://opencorporates.com/info/licence
 - type: x-twitter
   url: https://twitter.com/opencorporates
+- type: x-website
+  url: http://opencorporates.com
 - type: x-website
   url: https://opencorporates.com/
 include: []

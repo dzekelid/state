@@ -4,7 +4,7 @@ x-collection-name: Stride
 x-complete: 1
 info:
   title: Stride
-  description: this-service-provides-public-api-for-the-stride
+  description: this-service-provides-public-api-for-the-stride-
   version: 1.0.0
 host: api.atlassian.com
 basePath: /
