@@ -4,7 +4,7 @@ description: This is a repository of state APIs, self-contained as a Github repo
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/state.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://state.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -28,10 +28,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/google-app-engine/apis.yaml
 - name: GitHub
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/github/apis.yaml
-- name: Lykke
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/lykke/apis.yaml
 - name: Google Play
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/google-play/apis.yaml
+- name: Lykke
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/lykke/apis.yaml
 - name: Stride
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/stride/apis.yaml
 - name: Xignite
