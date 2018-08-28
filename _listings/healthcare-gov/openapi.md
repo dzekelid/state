@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Healthcare.gov
 x-complete: 1
@@ -14,6 +13,50 @@ produces:
 consumes:
 - application/json
 paths:
+  /es/{stateName}{mediaTypeExtension}/:
+    get:
+      summary: Get State Name Media Type Extension
+      description: Returns pages content.
+      operationId: returns-pages-content
+      x-api-path-slug: esstatenamemediatypeextension-get
+      parameters:
+      - in: path
+        name: mediaTypeExtension
+        description: Omiting the param causes html to be returned
+      - in: path
+        name: stateName
+      responses:
+        200:
+          description: OK
+      tags:
+      - Insurance
+      - State
+      - Name
+      - Media
+      - Type
+      - Extension
+  /{stateName}{mediaTypeExtension}/:
+    get:
+      summary: Get State Name Media Type Extension
+      description: Returns pages content.
+      operationId: returns-pages-content
+      x-api-path-slug: statenamemediatypeextension-get
+      parameters:
+      - in: path
+        name: mediaTypeExtension
+        description: Omiting the param causes html to be returned
+      - in: path
+        name: stateName
+      responses:
+        200:
+          description: OK
+      tags:
+      - Insurance
+      - State
+      - Name
+      - Media
+      - Type
+      - Extension
   /api/states{mediaTypeExtension}:
     get:
       summary: Get States
@@ -29,39 +72,3 @@ paths:
           description: OK
       tags:
       - States
-  /es/{stateName}{mediaTypeExtension}:
-    get:
-      summary: Get Es Statename
-      description: Returns pages content.
-      operationId: getEsStatenameMediatypeextension
-      x-api-path-slug: esstatenamemediatypeextension-get
-      parameters:
-      - in: path
-        name: mediaTypeExtension
-        description: Omiting the param causes html to be returned
-      - in: path
-        name: stateName
-      responses:
-        200:
-          description: OK
-      tags:
-      - Es
-      - Statename
-  /{stateName}{mediaTypeExtension}:
-    get:
-      summary: Get Statename
-      description: Returns pages content.
-      operationId: getStatenameMediatypeextension
-      x-api-path-slug: statenamemediatypeextension-get
-      parameters:
-      - in: path
-        name: mediaTypeExtension
-        description: Omiting the param causes html to be returned
-      - in: path
-        name: stateName
-      responses:
-        200:
-          description: OK
-      tags:
-      - Statename
----

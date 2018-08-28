@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS EC2 Systems Manager
 x-complete: 1
@@ -12,6 +11,24 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribePatchGroupState:
+    get:
+      summary: Describe Patch Group State
+      description: Returns high-level aggregated patch compliance state for a patch
+        group.
+      operationId: describePatchGroupState
+      x-api-path-slug: actiondescribepatchgroupstate-get
+      parameters:
+      - in: query
+        name: PatchGroup
+        description: The name of the patch group whose patch snapshot should be retrieved
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Group
+      - State
   /?Action=DescribeInstancePatchStates:
     get:
       summary: Describe Instance Patch States
@@ -69,22 +86,3 @@ paths:
       tags:
       - Instance
       - StatesGroup
-  /?Action=DescribePatchGroupState:
-    get:
-      summary: Describe Patch Group State
-      description: Returns high-level aggregated patch compliance state for a patch
-        group.
-      operationId: describePatchGroupState
-      x-api-path-slug: actiondescribepatchgroupstate-get
-      parameters:
-      - in: query
-        name: PatchGroup
-        description: The name of the patch group whose patch snapshot should be retrieved
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Group
-      - State
----

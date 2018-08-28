@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Healthcare.gov
 x-complete: 0
 info:
-  title: HealthCare.gov Get Es Statename
+  title: Healthcare.gov Get State Name Media Type Extension
   version: 1.0.0
   description: Returns pages content.
 host: www.healthcare.gov
@@ -15,26 +15,11 @@ produces:
 consumes:
 - application/json
 paths:
-  /api/states{mediaTypeExtension}:
+  /es/{stateName}{mediaTypeExtension}/:
     get:
-      summary: Get States
+      summary: Get State Name Media Type Extension
       description: Returns pages content.
-      operationId: getApiStatesMediatypeextension
-      x-api-path-slug: apistatesmediatypeextension-get
-      parameters:
-      - in: path
-        name: mediaTypeExtension
-        description: Omiting the param causes html to be returned
-      responses:
-        200:
-          description: OK
-      tags:
-      - States
-  /es/{stateName}{mediaTypeExtension}:
-    get:
-      summary: Get Es Statename
-      description: Returns pages content.
-      operationId: getEsStatenameMediatypeextension
+      operationId: returns-pages-content
       x-api-path-slug: esstatenamemediatypeextension-get
       parameters:
       - in: path
@@ -46,8 +31,12 @@ paths:
         200:
           description: OK
       tags:
-      - Es
-      - Statename
+      - Insurance
+      - State
+      - Name
+      - Media
+      - Type
+      - Extension
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

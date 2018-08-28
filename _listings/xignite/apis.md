@@ -7,45 +7,46 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: State
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Rates Get State Rate
-  x-api-slug: xignite-rates
+- name: Xignite Rates - Get State Rate
+  x-api-slug: getstaterate-get
   description: Returns a state rate
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetStateRate
-  tags: Market Data,State, Rate
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/xignite/getstaterate-get-openapi.md
-- name: Xignite Rates Get State Rates
-  x-api-slug: xignite-rates
+- name: Xignite Rates - Get State Rates
+  x-api-slug: getstaterates-get
   description: Returns state rates for a date range.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetStateRates
-  tags: Market Data,State, Rates
+  baseURL: https://www.xignite.com/xRates.json/XigniteRates
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/xignite/getstaterates-get-openapi.md
-- name: Xignite Rates
-  x-api-slug: xignite-rates
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates
-  tags: State
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/xignite/openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies

@@ -9,26 +9,28 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: State
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/apis.md
 specificationVersion: "0.14"
 apis:
-- name: IBM Watson IoT Platform Get the state for the device with the specified id
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Get the state for the device with
+    the specified id
+  x-api-slug: devicetypestypeiddevicesdeviceidstatelogicalinterfaceid-get
   description: Retrieve the current state of the device with the specified id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//device/types/{typeId}/devices/{deviceId}/state/{logicalInterfaceId}
-  tags: Internet of Things,Device,Types,Devices,DeviceId,State,LogicalInterfaceId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/devicetypestypeiddevicesdeviceidstatelogicalinterfaceid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/devicetypestypeiddevicesdeviceidstatelogicalinterfaceid-get-openapi.md
-- name: IBM Watson IoT Platform Perform an operation against the device state for
-    a logical interface
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Perform an operation against the device
+    state for a logical interface
+  x-api-slug: devicetypestypeiddevicesdeviceidstatelogicalinterfaceid-patch
   description: |-
     Performs the specified operation against the device state for a logical
     interface. The following values can be specified for the operation
@@ -41,24 +43,27 @@ apis:
     interface.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//device/types/{typeId}/devices/{deviceId}/state/{logicalInterfaceId}
-  tags: Internet of Things,Device,Types,Devices,DeviceId,State,LogicalInterfaceId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/devicetypestypeiddevicesdeviceidstatelogicalinterfaceid-patch-openapi.md
-- name: IBM Watson IoT Platform Get the state for the thing with the specified id
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Get the state for the thing with the
+    specified id
+  x-api-slug: thingtypesthingtypeidthingsthingidstatelogicalinterfaceid-get
   description: Retrieve the current state of the thing with the specified id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//thing/types/{thingTypeId}/things/{thingId}/state/{logicalInterfaceId}
-  tags: Internet of Things,Thing,Types,ThingTypeId,Things,ThingId,State,LogicalInterfaceId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/thingtypesthingtypeidthingsthingidstatelogicalinterfaceid-get-openapi.md
-- name: IBM Watson IoT Platform Perform an operation against the thing state for a
-    logical interface
-  x-api-slug: ibm-watson-iot-platform
+- name: IBM Watson IoT Platform HTTP REST API - Perform an operation against the thing
+    state for a logical interface
+  x-api-slug: thingtypesthingtypeidthingsthingidstatelogicalinterfaceid-patch
   description: |-
     Performs the specified operation against the thing state for a logical
     interface. The following values can be specified for the operation
@@ -71,25 +76,17 @@ apis:
     logical interface.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
   humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002//thing/types/{thingTypeId}/things/{thingId}/state/{logicalInterfaceId}
-  tags: Internet of Things,Thing,Types,ThingTypeId,Things,ThingId,State,LogicalInterfaceId
+  baseURL: https:////api/v0002
+  tags: Machine Learning, Machine Learning, AI, API LIfeyclessss, Stack Network, Stack,
+    Getting Started Example, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/thingtypesthingtypeidthingsthingidstatelogicalinterfaceid-patch-openapi.md
-- name: IBM Watson IoT Platform
-  x-api-slug: ibm-watson-iot-platform
-  description: Meet IBM Watson, a cognitive system that enables a new partnership
-    between people and computers that enhances and scales human expertise. Watson
-    has been learning the language of professions and is trained by experts to work
-    across many different industries.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png
-  humanURL: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/
-  baseURL: https:////api/v0002
-  tags: State
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://ibm.financial.crimes.insight.for.insurance.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://ibm.watson.stack.network
 - type: x-application-gallery
   url: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html
 - type: x-blog

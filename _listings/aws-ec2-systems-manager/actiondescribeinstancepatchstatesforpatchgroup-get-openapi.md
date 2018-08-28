@@ -14,6 +14,24 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribePatchGroupState:
+    get:
+      summary: Describe Patch Group State
+      description: Returns high-level aggregated patch compliance state for a patch
+        group.
+      operationId: describePatchGroupState
+      x-api-path-slug: actiondescribepatchgroupstate-get
+      parameters:
+      - in: query
+        name: PatchGroup
+        description: The name of the patch group whose patch snapshot should be retrieved
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Group
+      - State
   /?Action=DescribeInstancePatchStates:
     get:
       summary: Describe Instance Patch States

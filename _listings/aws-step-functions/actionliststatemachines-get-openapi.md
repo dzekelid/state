@@ -70,38 +70,6 @@ paths:
           description: OK
       tags:
       - State Machine
-  /?Action=ListExecutions:
-    get:
-      summary: List Executions
-      description: Lists the executions of a state machine that meet the filtering
-        criteria.
-      operationId: listExecutions
-      x-api-path-slug: actionlistexecutions-get
-      parameters:
-      - in: query
-        name: maxResults
-        description: The maximum number of results that will be returned per call
-        type: string
-      - in: query
-        name: nextToken
-        description: If a nextToken was returned by a previous call, there are more
-          results available
-        type: string
-      - in: query
-        name: stateMachineArn
-        description: The Amazon Resource Name (ARN) of the state machine whose executions
-          will be listed
-        type: string
-      - in: query
-        name: statusFilter
-        description: If specified, only list the executions whose current execution
-          status matches the given filter
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - State Machine
   /?Action=ListStateMachines:
     get:
       summary: List State Machines

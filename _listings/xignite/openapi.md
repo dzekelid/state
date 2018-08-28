@@ -1,13 +1,12 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
 info:
-  title: Xignite Rates
-  description: provide-information-about-interest-rates-
+  title: Xignite VWAP
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   version: 1.0.0
 host: www.xignite.com
-basePath: xRates.json/XigniteRates
+basePath: xVWAP.json/XigniteVWAP
 schemes:
 - http
 produces:
@@ -51,4 +50,3 @@ paths:
       - Market Data
       - State
       - Rates
----
