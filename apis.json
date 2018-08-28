@@ -8,36 +8,6 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "GitHub",
-			"x-api-slug": "github",
-			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
-			"humanURL": "https://github.com",
-			"baseURL": "https:///",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/github/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Reverb",
-			"x-api-slug": "reverb",
-			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
-			"humanURL": "https://helloreverb.com/app",
-			"baseURL": "https://api.reverb.com//api",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/reverb/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "Salesforce",
 			"x-api-slug": "salesforce",
 			"description": "Build more meaningful and lasting relationships and connect with your customers across sales, customer service, marketing, communities, apps, analytics, and more using our Customer Success Platform. Try for Free.",
@@ -53,17 +23,17 @@
 			]
 		},
 		{
-			"name": "Xignite",
-			"x-api-slug": "xignite",
-			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
-			"humanURL": "http://www.xignite.com",
-			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"name": "New York Senate",
+			"x-api-slug": "new-york-senate",
+			"description": "NYSenate.gov is designed to increase public participation in the legislative process. By facilitating efficient communication between individual New Yorkers and the senators who represent them, lawmakers are able to craft a better set of laws by which ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/446-new-york-senate.jpg",
+			"humanURL": "http://www.nysenate.gov",
+			"baseURL": "https:///",
 			"tags": "State",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/xignite/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/new-york-senate/openapi.md"
 				}
 			]
 		},
@@ -79,6 +49,21 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Illinois.Gov",
+			"x-api-slug": "data-illinois-gov",
+			"description": "The State of Illinois Home Page is a portal with links to other websites. These include links to web sites operated by Illinois agencies and officials, other government agencies, nonprofit organizations and private businesses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/752-data-illinois-gov.jpg",
+			"humanURL": "https://illinois.gov/",
+			"baseURL": "https:///",
+			"tags": "State",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/data-illinois-gov/openapi.md"
 				}
 			]
 		},
@@ -113,17 +98,32 @@
 			]
 		},
 		{
-			"name": "Mailjet",
-			"x-api-slug": "mailjet",
-			"description": "Streamline your emailing and boost your sales with Mailjet. We serve all your email and SMS needs with one simple and powerful solution. You can try it now with 6000 emails/mo absolutely free. Sign up now, or read more about how we can help your busine...",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg",
-			"humanURL": "http://mailjet.com",
-			"baseURL": "https://api.mailjet.com/v3/REST/",
+			"name": "Data.Washington",
+			"x-api-slug": "data-washington",
+			"description": "The Employment Security Department helps Washington states workers and employers succeed in the global economy by delivering superior employment services, timely unemployment benefits, and a fair and stable unemployment-benefits system.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/758-data-washington.jpg",
+			"humanURL": "https://wa.gov/",
+			"baseURL": "https:///",
 			"tags": "State",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/mailjet/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/data-washington/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenColorado",
+			"x-api-slug": "opencolorado",
+			"description": "OpenColorado is working to make public data available and accessible to the citizens of Colorado.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/878-opencolorado.jpg",
+			"humanURL": "http://opencolorado.org",
+			"baseURL": "https:///",
+			"tags": "State",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/opencolorado/openapi.md"
 				}
 			]
 		},
@@ -154,21 +154,6 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "IBM Watson",
-			"x-api-slug": "ibm-watson",
-			"description": "Meet IBM Watson, a cognitive system that enables a new partnership between people and computers that enhances and scales human expertise. Watson has been learning the language of professions and is trained by experts to work across many different industries.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ibm-watson-logo.png",
-			"humanURL": "https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/",
-			"baseURL": "https://ibm-watson-ml.mybluemix.net/v3/",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/openapi.md"
 				}
 			]
 		},
@@ -323,21 +308,6 @@
 			]
 		},
 		{
-			"name": "Google App Engine",
-			"x-api-slug": "google-app-engine",
-			"description": "Build modern web and mobile applications on an open cloud platform: bring your own language runtimes, frameworks, and third party libraries. Google App Engine is a fully managed platform that completely abstracts away infrastructure so you focus only on code. Go from zero to planet-scale and see why some of today&rsquo;s most successful companies power their applications on App Engine.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png",
-			"humanURL": "https://cloud.google.com/appengine/",
-			"baseURL": "://appengine.googleapis.com//",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/google-app-engine/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "Lykke",
 			"x-api-slug": "lykke",
 			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
@@ -349,36 +319,6 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/lykke/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Steem",
-			"x-api-slug": "steem",
-			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
-			"humanURL": "http://steemit.com",
-			"baseURL": "https://api.steemjs.com//",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/steem/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Stride",
-			"x-api-slug": "stride",
-			"description": "Stride is a cloud-based team business communication and collaboration tool, launched by Atlassian to replace the cloud-based version of HipChat. Stride software is available to download onto computers running Windows, Mac or Linux, as well as Android, iOS smartphones, and tablets",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28142-stride.jpg",
-			"humanURL": "https://www.stride.com/",
-			"baseURL": "https://api.atlassian.com//",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/stride/openapi.md"
 				}
 			]
 		},
@@ -426,89 +366,25 @@
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ship-station/openapi.md"
 				}
 			]
-		},
-		{
-			"name": "Trello",
-			"x-api-slug": "trello",
-			"description": "Trusted by millions, Trello is the visual collaboration tool that creates a shared perspective on any project. Trello&rsquo;s boards, lists and cards enable you to organize and prioritize your personal and work life in a fun, flexible and rewarding way.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/trello-logo.png",
-			"humanURL": "http://trello.com",
-			"baseURL": "https://trello.com//1",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/trello/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "RingCentral",
-			"x-api-slug": "ringcentral",
-			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
-			"humanURL": "http://www.ringcentral.com",
-			"baseURL": "https://platform.ringcentral.com//",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ringcentral/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
-			"humanURL": "https://www.dezrez.com",
-			"baseURL": "https://api.dezrez.com//",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/dezrez/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "ChainGenie",
-			"x-api-slug": "chaingenie",
-			"description": "ChainGenie provides a plug and play platform that helps you connect your existing (or create new) applications to DLTs for lodging and workflow management using a simple easy to use user interface. ChainGenie is a platform to create blockchain apps that provide speed-to-market for companies looking to launch faster, rather than reinvent the wheel. Write your applications to run on popular Blockchain networks like Ethereum, Bitcoin Blockchain etc with great ease when you require to validate credentials or make your existing traditional applications use the power of DLT and blockchain overnight!",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28902-api-chaingenie-com.jpg",
-			"humanURL": "http://chaingenie.com",
-			"baseURL": "https://api.chaingenie.com//api/v1",
-			"tags": "State",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/chaingenie/openapi.md"
-				}
-			]
 		}
 	],
 	"tags": "State",
 	"include": [
 		{
-			"name": "GitHub",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/github/apis.yaml"
-		},
-		{
-			"name": "Reverb",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/reverb/apis.yaml"
-		},
-		{
 			"name": "Salesforce",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/salesforce/apis.yaml"
 		},
 		{
-			"name": "Xignite",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/xignite/apis.yaml"
+			"name": "New York Senate",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/new-york-senate/apis.yaml"
 		},
 		{
 			"name": "Atlassian",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Data.Illinois.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/data-illinois-gov/apis.yaml"
 		},
 		{
 			"name": "OK.gov",
@@ -519,8 +395,12 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/data-oregon-gov/apis.yaml"
 		},
 		{
-			"name": "Mailjet",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/mailjet/apis.yaml"
+			"name": "Data.Washington",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/data-washington/apis.yaml"
+		},
+		{
+			"name": "OpenColorado",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/opencolorado/apis.yaml"
 		},
 		{
 			"name": "RI.gov Open Data",
@@ -529,10 +409,6 @@
 		{
 			"name": "Healthcare.gov",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/apis.yaml"
-		},
-		{
-			"name": "IBM Watson",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ibm-watson/apis.yaml"
 		},
 		{
 			"name": "Open Bank Project",
@@ -575,20 +451,8 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/google-play/apis.yaml"
 		},
 		{
-			"name": "Google App Engine",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/google-app-engine/apis.yaml"
-		},
-		{
 			"name": "Lykke",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/lykke/apis.yaml"
-		},
-		{
-			"name": "Steem",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/steem/apis.yaml"
-		},
-		{
-			"name": "Stride",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/stride/apis.yaml"
 		},
 		{
 			"name": "TradeStation",
@@ -601,22 +465,6 @@
 		{
 			"name": "Ship Station",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ship-station/apis.yaml"
-		},
-		{
-			"name": "Trello",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/trello/apis.yaml"
-		},
-		{
-			"name": "RingCentral",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/ringcentral/apis.yaml"
-		},
-		{
-			"name": "Dezrez",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/dezrez/apis.yaml"
-		},
-		{
-			"name": "ChainGenie",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/chaingenie/apis.yaml"
 		}
 	]
 }

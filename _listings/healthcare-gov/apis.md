@@ -18,32 +18,6 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Healthcare - Get State Name Media Type Extension
-  x-api-slug: esstatenamemediatypeextension-get
-  description: Returns pages content.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png
-  humanURL: http://www.healthcare.gov
-  baseURL: https://www.healthcare.gov//
-  tags: Federal Government, Federal Government, Stack Network, Insurance, Healthcare,
-    API Provider, Profiles, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/esstatenamemediatypeextension-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/esstatenamemediatypeextension-get-openapi.md
-- name: Healthcare - Get State Name Media Type Extension
-  x-api-slug: statenamemediatypeextension-get
-  description: Returns pages content.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png
-  humanURL: http://www.healthcare.gov
-  baseURL: https://www.healthcare.gov//
-  tags: Federal Government, Federal Government, Stack Network, Insurance, Healthcare,
-    API Provider, Profiles, General Data
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/statenamemediatypeextension-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/state/master/_listings/healthcare-gov/statenamemediatypeextension-get-openapi.md
 - name: Healthcare - Get API States Media Type Extension
   x-api-slug: apistatesmediatypeextension-get
   description: Returns pages content.

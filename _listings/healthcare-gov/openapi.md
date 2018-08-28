@@ -13,50 +13,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /es/{stateName}{mediaTypeExtension}/:
-    get:
-      summary: Get State Name Media Type Extension
-      description: Returns pages content.
-      operationId: returns-pages-content
-      x-api-path-slug: esstatenamemediatypeextension-get
-      parameters:
-      - in: path
-        name: mediaTypeExtension
-        description: Omiting the param causes html to be returned
-      - in: path
-        name: stateName
-      responses:
-        200:
-          description: OK
-      tags:
-      - Insurance
-      - State
-      - Name
-      - Media
-      - Type
-      - Extension
-  /{stateName}{mediaTypeExtension}/:
-    get:
-      summary: Get State Name Media Type Extension
-      description: Returns pages content.
-      operationId: returns-pages-content
-      x-api-path-slug: statenamemediatypeextension-get
-      parameters:
-      - in: path
-        name: mediaTypeExtension
-        description: Omiting the param causes html to be returned
-      - in: path
-        name: stateName
-      responses:
-        200:
-          description: OK
-      tags:
-      - Insurance
-      - State
-      - Name
-      - Media
-      - Type
-      - Extension
   /api/states{mediaTypeExtension}:
     get:
       summary: Get States
